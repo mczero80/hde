@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=ISO 8859-6
+Exec=hrun
+Icon=images/run.xpm
+Name=Run
+Name[ar]=สิฺ๊ไ
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

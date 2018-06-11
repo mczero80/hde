@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Restart WM
+Name[ar]=إعادة تشغيل مدير النوافذ
+Name[nl]=WM herstarten
+Exec=touch ~/.config/hde2/defaults && killall -HUP hde
+Icon=reload
+Type=Application
+Categories=Qt;Utility;X-HDE-Utilities-Desktop;X-Haydar;
+X-Desktop-File-Install-Version=0.10
+

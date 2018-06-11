@@ -1,0 +1,48 @@
+#!/bin/sh
+export QTDIR=/usr/share/qt4
+
+make
+
+. ./config
+
+
+mkdir -p debian/libhde/usr/share/man/man1
+mkdir -p debian/libhde/DEBIAN
+make ROOT=`pwd`/debian/libhde install
+
+rm -rf debian/libhde/etc
+rm -rf debian/libhde/usr/share/hde2
+rm -rf debian/libhde/usr/share/applications
+rm -rf debian/libhde/usr/share/desktop-directories
+rm -rf debian/libhde/usr/share/xsessions
+rm -rf debian/libhde/usr/share/man
+rm -rf debian/libhde/usr/bin
+mkdir -p debian/libhde/DEBIAN
+find ./debian/libhde -type d | xargs chmod 755
+cp debian/control-lib debian/libhde/DEBIAN/control
+cp CHANGES debian/libhde/DEBIAN/changelog
+cp debian/compat debian/libhde/DEBIAN/
+cp debian/copyright debian/libhde/DEBIAN/
+dpkg-deb --build debian/libhde
+
+
+mkdir -p debian/hde/usr/share/man/man1
+mkdir -p debian/hde/DEBIAN
+make ROOT=`pwd`/debian/hde install
+rm -rf debian/hde/usr/share/qt4
+rm -rf debian/hde/usr/lib
+rm -rf debian/hde/usr/include
+mkdir -p debian/hde/DEBIAN
+find ./debian/hde -type d | xargs chmod 755
+cp debian/control debian/hde/DEBIAN
+cp CHANGES debian/hde/DEBIAN/changelog
+cp debian/compat debian/hde/DEBIAN/
+cp debian/copyright debian/hde/DEBIAN/
+#cp ./prerm ./postinst ./debian/hde/DEBIAN
+dpkg-deb --build debian/hde
+
+rm -rf debian/libhde
+rm -rf debian/hde
+
+mv debian/hde.deb debian/hde_$DVERSION-4_all.deb
+mv debian/libhde.deb debian/libhde_$LVERSION-4_all.deb

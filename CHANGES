@@ -1,0 +1,229 @@
+2.0.3 - Fixed xwindow placement for multiple screens.
+      - Fixed maximizing xwindow for multiple screens.
+      - The executable is now hde instead of hde2, but configs are hde2.
+      - Added debian build files.
+      - Changed from cvs to svn.
+      - Some fixes in MyComputer to be ready for Haydar Commander.
+      - Added HImageVw HFileWidget HFileList to be ready for Haydar Commander.
+      - Added hdeplugins (Designer plugins for hde widgets).
+
+2.0.2 - Make it a little bit faster with drawing borders.
+      - Fixed Desktop text drawing and encoding.
+      - Fixed HMime and added MyComputer.
+
+2.0.1 - Better Support for NET WM STANDARD Tray Icon.
+
+2.0.0 - Added XDG menu support.
+      - Fixed all previus bugs and completed the missing futures.
+
+1.9.0 - Imported to Qt4.
+      - Added some comments to be programmer frindly.
+      - Replacing initfiles by QSettings.
+      - Rebuilding hde2 from qlwm.
+      - Added Transparency.
+      - Added screenshot tooltip.
+      - Added Windows Vista Theme.
+
+=============================================================================
+
+0.4.7 - Added hdePlugins, many widgets can be added using designer.
+      - Fix crash when the new client has no name.
+      - Fix some windows start iconified.
+      - Added Refresh to Desktop menu.
+      - Set Default browser to firefox, and mail client to thunderbird.
+      - Fixed Drawing error in the appbar when using Windows XP style.
+      - Created hxkb.
+      - Some drawing fixes in apbar widget.
+
+
+0.4.6 - Rewrite hdeStyle to fix problems compiling under Windows.
+      - Redisgn Toolbar and Titlebar in hdeStyle.
+
+
+0.4.5 - Added support for kdelnk, to read some old kdelinks such Yahoo 
+        Messenger link.
+
+0.4.4 - Fixed the bug causing XWindows freze.
+      - Enabled the vrowse button in hrun.
+      - Titlebars supports Arabic text again after it was accedently removed.
+      - added the ability to read [Color_Background] section in theme.
+      - set default theme to /usr/share/hde/Theme instead of the XP Theme.
+      - Removed "%XXXX" from the menu entry.
+      - Fixed a bug in Recent file names when using XP menu style.
+      - Some work on desktop item program.
+      - The maximum width of the try icon is now 20 instead of undefined,
+      - The clock is an Internal apbar program now.
+      - Some small fixes on Makefiles.
+
+0.4.3 - Windows now doesn't shrink to fit in border.
+      - Added XPMenu.
+      - hrunfiles now in ~/.hrun.
+      - adding the command to recent list after executing it.
+      - /usr/share/hwm/applnk/Programs is now a link to /usr/share/applnk for
+        compatibility between hwm and kde.
+      - begin with the menu and desktop items add/properties.
+      - Fixed OpenOffice window place bug.
+      - Some fixes for resizing window.
+      - Added lrelease to Makefile to update translations.
+      - Fixed RTL drawing for the QToolButton in hdeStyle.
+
+
+0.4.2 - Flipped the start.png to be displayed in both Arabic and Latine.
+      - Added WinXP theme back but in file XP-Theme
+      - Fixed flat titlebar icons bug. 
+      - Fixed the bug makes the last focus window before Desktop unfocusable.
+      - Wait cursor untill hwm started completely.
+      - Reorder CHANGES.
+
+0.41 - Fixed tray icon disapearing when restart.
+     - Added Spain and Frensh Languages translations.
+
+0.40 - Compiling using Qt 3.1 showes me a lot of bugs.
+     - Fixed dblclick on desktop icon bug "QT 3.1".
+     - When you click on desktop now all clients become inactive.
+     - Fixed the bug that made some programs starts minimized.
+     - Fixed the memory bug in biff and hwm by removing setBackgroundPixmap
+       and use QPainter instead.
+
+0.39 - The folowing fixes in hrun: 
+       1- okPressed activated when the user press on enter.
+       2- add autocomplation for prev. commands.
+     - Fixed the bug that crash hDisplay when imagedir does not excist and 
+       fixed translation error
+
+
+0.38 - Fixed the ugly lines under toolbar buttons when using theme.
+     - Added fonts color for startbutton, toolbar buttons and apbar in Theme.
+     - Fixed the bug that prevent drawing the clock font if not using 
+       fontconfig in QT.
+     - DEST is now /usr instead of /usr/local
+     - Fixed Desktop file bug when filename has unicode encoding.
+
+
+0.37 - many isues for theme support.
+     - Added TitleImage, TitleRightImage, TitleLeftImage, UnactiveTitleImage, 
+       UnactiveTitleRightImage, UnactiveTitleLeftImage to Themes to be drawn 
+       in the titlebar.
+     - Added topBorder and flaticons variables to defaults to decide if a 
+       window has top borders and flat icons in the title bar.
+     - Toolbar ad titlebars are fully costumizable now.
+     - on right to left locales titlebar, starticon and appbar images are 
+       reversed.
+
+0.36 - Changed the menu reading to support kdeicons without paths 
+     - Added the item ImagesDirs to defaults in [Color_Background] to search  
+       for images in some directories seperated by ';'.
+
+0.35 - hwmclock is a standard tray window now.
+     - Added defaults::titleStyle variable to make styleName variable act 
+       like its name.
+     - appbar is not agly anymore in Windows Style ;)
+     - Fixed crash on some locales.
+     - Added readItem to the class defaults in libhwm.
+     - Changed all Desktop and menu files to readItem
+     - Changed library version to libhwm.so.2.5
+     - fixed the menu.cpp to get startmenu image when an image exists.
+     - Added a link kde in Programs tp /usr/share/applnk
+     - Changed hwminst script to install that link.
+
+0.34 - ClickToFocus is Finished.
+     - Fixed Resizing non focused Window bug.
+     - Fixed Move non focused Window.
+     - Fixed All non focused Windows bugs ;).
+
+0.33 - many changes to have ClickToFocus problem fixed
+     - KDE3 tray icon is now supported
+     - Added hcloseframe which is a frame with Close and Minimize/Maximize
+       bttons.  
+
+0.32 - fixed small errors regarding upgrading to qt-3.0.4.
+     - changed the fonts reading.
+     - added KDE3 menu compatibality.
+     - changed defaults to be used with the configuration program.
+     - added hDisplay to configure display and appearance
+     - added HCalender, a calender widget for Qt3 wich will support Hijri 
+       Calender later.
+     - added hDateTime program to extra
+     - Allow changing keyboard language of xkbsel from hwm "ALT+SHIFT_L"
+     - Some small changes to fix click to focus bug later.
+
+0.31 - fixed CVS entry in Menus. 
+     - corrected right/mid press bug for max/restore button. 
+     - removed old menu configuration file. 
+     - changed all programs for thread support. 
+     - defaults::lng now shows the locale if no language defined.
+     - load the translator qt_ar that i have submited to Trolltech ;)
+     - Fixed theme to have costumized buttons, this make it looks 90% 
+	like Windows.
+     - Added Theme in /usr/locale/share/hwm and it's images at the images dir.
+     - Fixed a small bug in hwmStyle in PE_HeaderSection.
+
+0.30 - added WinXPStyle, some changes in the look
+     - menu Button is now drawen internaly
+     - added alt+print to copy selected window, and alt+shift+print to copy 
+       the intire desktop
+     - Configurations are now in $HWMDIR/share 
+
+
+0.29 - The procbar icon and the window icon changes now whenever the original 
+       icon changes, the menus now are links => each group is a directory and 
+       each item is a file, added auto language changes to the desktop
+
+0.28 - Added Language templates and RTL for arabic language. 
+     - changes wborder to support RTL, xwindows and the menus.
+
+0.27 - Added ToolTips to BordersButtons. 
+     - wbutton is now down when pressed. 
+     - Added delMenuItem in config of libhwm. 
+     - the mail indecator is drawn like apbar.
+     - added menu to the procbar buttons.
+     - some changes to the hwmStyle
+
+0.26 - fixed a layout problem when using qt3 > beta 6.
+     - reading from ini reads now "key=value" beside "key = value".
+     - added addMenuItem to config.h in libhwm.
+     - reading from ini can now support key[something]=value.
+     - fix the resizing problem.
+
+0.25 - The borders layout has been changed to look exactly like win9x in the 
+       windows style.
+     - noborders now remove all borders from the decoration.
+
+0.24 - Added contexthelp button.
+
+0.23 - some fixes for the win98style.
+     - Added non bordered window to shaped.
+     - fixed a small bug in keyboard.cpp.
+
+0.22 - Added ClickToFocus suppot.
+
+0.21 - many changes to the drawing of buttons and comboboxes in hwmstyle.
+     - added tow other buttons Max/Minimize and a boolean to chose this style
+     - The win98style looks more likes Windows 98.  
+
+0.20 - fixed some miner draw isues in borders.
+     - added popup menu to the icon frame.
+
+0.19 - middle frame in topborder support gradient colors.
+     - frames on top border are now transparent instead of drawn
+     - the size of windows button changes in win95style and win98style.
+     - some bug fixes.
+
+0.18 - sideBar problems has been fixed and it can now resize the window.
+     - the Size of the window can be 0 height and 2*button width.
+
+0.17 - bug fixed with shaped windows and sideBars, Desktop Added.
+
+0.16 - titlebar apbar, procbar and tollbar has now a better drawing look.
+     - The mouse will change to the title bar of the new windows when created.
+
+0.15 - titlebar apbar, procbar and tollbar has now a new drawing look.
+
+0.14 - added icons to winlist.
+     - leftframe and right frame has become QPushButtons.
+     - added a new icon in the titlebar.
+
+0.13 - wininfo size fixed, Added Icons to menu.
+
+0.12 - Added close window to keyboard shorcuts "ALT+F4".
+

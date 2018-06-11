@@ -1,0 +1,36 @@
+
+HDE
+===
+hde is a new window manager for the X11 system which was based
+on qlwm, it should support all international languages including
+arabic.
+Because it makes heavy use of Qt it can be kept small andeasy to 
+maintain.
+hde2 has many futures, one of them it can emulate the look and 
+feel of windows vista, without the need of buying a new computer
+to have the minimum configuration of windows vista.
+
+
+It has been written with GPL license and should stay open source. 
+
+CREDITS
+=======
+Special thanks to Alexander Linden for his qlwm.
+
+
+Development
+===========
+Feel free to create some configuration files and other programs
+based on hde, the libhde give you an easy way to render and text
+or change it's language for your applications including arabic 
+rendering.
+
+AUTHOR
+======
+Haydar Alkaduhimi <haydar@haydarnet.nl>
+
+WEB ADDRESS
+===========
+http://hde.haydarlinux.org
+or in arabic
+http://hde.haydarlinux.org/ar

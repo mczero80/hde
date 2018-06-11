@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=ISO 8859-6
+Exec=touch ~/.hwm/defaults && killall -HUP hwm
+Icon=
+Name=Restart WM
+Name[ar]=≈Ÿ«œ…  ‘⁄Í‰ ÂœÍ— «‰ÊË«·–
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

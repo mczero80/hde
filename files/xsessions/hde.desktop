@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=XSession
+Exec=hde
+TryExec=hde
+Name=HDE
+Name[ar]=هدي
+Comment=The Haydar Desktop Environment. A powerful Open Source graphical desktop environment
+Comment[ar]=بيئة مكتب حيدر، بيئة مكتب مفتوح المصدر وذو فعاليّة قوية

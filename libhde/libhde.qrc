@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource>
+        <file>images/hcloseframe.png</file>
+        <file>images/hcalender.png</file>
+        <file>images/hclock.png</file>
+        <file>images/tactivex.png</file>
+        <file>images/tactiveup.png</file>
+        <file>images/tactivedown.png</file>
+    </qresource>
+</RCC>

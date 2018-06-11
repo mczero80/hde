@@ -1,0 +1,89 @@
+[Default]
+Style 			= hdeStyle
+Theme 			= WinXP
+menuStyle 		= xp
+
+closeicon 		= images/xp/buttons/close.png
+minicon 		= images/xp/buttons/minimize.png
+maxicon 		= images/xp/buttons/maximize.png
+resticon 		= images/xp/buttons/restore.png
+helpicon 		= images/xp/buttons/help.png
+
+closemoicon 		= images/xp/buttons/closemo.png
+minmoicon 		= images/xp/buttons/minimizemo.png
+maxmoicon 		= images/xp/buttons/maximizemo.png
+restmoicon 		= images/xp/buttons/restoremo.png
+helpmoicon 		= images/xp/buttons/helpmo.png
+
+closedownicon 		= images/xp/buttons/closedown.png
+mindownicon 		= images/xp/buttons/minimizedown.png
+maxdownicon 		= images/xp/buttons/maximizedown.png
+restdownicon 		= images/xp/buttons/restoredown.png
+helpdownicon 		= images/xp/buttons/helpdown.png
+
+ucloseicon 		= images/xp/buttons/uclose.png
+uminicon 		= images/xp/buttons/uminimize.png
+umaxicon 		= images/xp/buttons/umaximize.png
+uresticon 		= images/xp/buttons/urestore.png
+uhelpicon 		= images/xp/buttons/uhelp.png
+
+
+ToolbarHeight		= 30
+ToolButtonHeight	= 30
+ToolbarBackGround	= images/xp/tb_bg.png
+TryBackGround 		= images/xp/ab_bg.png
+
+starticon 		= images/xp/start_bg.png
+starticondown		= images/xp/startdown_bg.png
+starticonmo		= images/xp/startmo_bg.png
+startForeground    	= #FFFFFF
+
+tbButton_bg		= images/xp/btn_bg.png
+tbButtondown_bg		= images/xp/btndown_bg.png
+tbButtonmo_bg		= images/xp/btnmo_bg.png
+
+TitleImage		= images/xp/title.png
+
+UnactiveTitleImage	= images/xp/untitle.png
+
+BorderTopImage		= images/xp/border_top.png
+BorderTopLeftImage	= images/xp/border_tl.png
+BorderTopRightImage	= images/xp/border_tr.png
+BorderLeftImage		= images/xp/border_left.png
+BorderRightImage	= images/xp/border_right.png
+BorderBottomImage	= images/xp/border_bot.png 
+BorderBottomLeftImage	= images/xp/border_bl.png
+BorderBottomRightImage	= images/xp/border_br.png
+
+UBorderTopImage		= images/xp/uborder_top.png
+UBorderTopLeftImage	= images/xp/uborder_tl.png
+UBorderTopRightImage	= images/xp/uborder_tr.png
+UBorderLeftImage	= images/xp/uborder_left.png
+UBorderRightImage	= images/xp/uborder_right.png
+UBorderBottomImage	= images/xp/uborder_bot.png 
+UBorderBottomLeftImage	= images/xp/uborder_bl.png
+UBorderBottomRightImage	= images/xp/uborder_br.png
+
+TitlebarHeight		= 26
+LowerBorderHeight	= 4
+WindowButtonSize	= 21
+IconSize     		= 21
+
+flaticons 		= TRUE
+topBorder 		= TRUE
+SideBorders 		= TRUE
+clickToFocus 		= TRUE
+
+StartButtonFont		= "Helvetica,14,-1,5,75,0,0,0,0,0"
+
+startBtnShadow		= TRUE
+titlebarShadow		= FALSE
+toolbuttonsShadow	= FALSE
+
+[TitlebarOrder]
+TitlebarItem[0]		= Menu
+TitlebarItem[1]		= Title
+TitlebarItem[2]		= Help
+TitlebarItem[3]		= Minimize
+TitlebarItem[4]		= Maximize
+TitlebarItem[5]		= Close

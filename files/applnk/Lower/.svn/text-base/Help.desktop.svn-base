@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=ISO 8859-6
+Exec=xman
+Icon=images/help32.xpm
+Name=Help
+Name[ar]= Ÿ‰ÍÂ« 
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

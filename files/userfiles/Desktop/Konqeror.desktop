@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding = ISO 8859-6
+Name = Konqueror
+Name[ar] = „ËÊ„ÍË—Ë—
+Comment=
+Exec = konqueror
+Icon = konqueror
+MimeType =
+Path =
+ServiceTypes =
+SwallowExec =
+SwallowTitle =
+Terminal = false
+TerminalOptions =
+Type = Application
+X-KDE-SubstituteUID = false
+X-KDE-Username =

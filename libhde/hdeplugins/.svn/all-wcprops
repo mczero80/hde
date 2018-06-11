@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/hde/!svn/ver/1/libhde/hdeplugins
+END
+plugin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/hde/!svn/ver/1/libhde/hdeplugins/plugin.cpp
+END
+hdeplugins.pro
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/hde/!svn/ver/1/libhde/hdeplugins/hdeplugins.pro
+END
+plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/hde/!svn/ver/1/libhde/hdeplugins/plugin.h
+END
+hdeplugins.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/hde/!svn/ver/1/libhde/hdeplugins/hdeplugins.qrc
+END
+defaults.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/hde/!svn/ver/1/libhde/hdeplugins/defaults.cpp
+END
+defaults.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/hde/!svn/ver/1/libhde/hdeplugins/defaults.h
+END

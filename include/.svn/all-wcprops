@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svnroot/hde/!svn/ver/1/include
+END
+netwm.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/hde/!svn/ver/1/include/netwm.h
+END
+hfilewidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/hde/!svn/ver/1/include/hfilewidget.h
+END
+hmime.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/hde/!svn/ver/1/include/hmime.h
+END
+hclock.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/hde/!svn/ver/1/include/hclock.h
+END
+mycomputer.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/hde/!svn/ver/1/include/mycomputer.h
+END
+hinigroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/hde/!svn/ver/1/include/hinigroup.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/hde/!svn/ver/1/include/config.h
+END
+smenuitem.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/hde/!svn/ver/1/include/smenuitem.h
+END
+xdgmenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/hde/!svn/ver/1/include/xdgmenu.h
+END
+defaults.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/hde/!svn/ver/1/include/defaults.h
+END
+himagevw.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/hde/!svn/ver/1/include/himagevw.h
+END
+netwm_def.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/hde/!svn/ver/1/include/netwm_def.h
+END
+netwm_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/hde/!svn/ver/1/include/netwm_p.h
+END
+moc_hcloseframe.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/hde/!svn/ver/1/include/moc_hcloseframe.cpp
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/hde/!svn/ver/1/include/defs.h
+END
+hdestyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/hde/!svn/ver/1/include/hdestyle.h
+END
+lhdeconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/hde/!svn/ver/1/include/lhdeconf.h
+END
+startmenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/hde/!svn/ver/1/include/startmenu.h
+END
+hfilelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/hde/!svn/ver/1/include/hfilelist.h
+END
+hcalender.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/hde/!svn/ver/1/include/hcalender.h
+END
+conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/hde/!svn/ver/1/include/conf.h
+END
+qhijri.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/hde/!svn/ver/1/include/qhijri.h
+END
+libhde.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/hde/!svn/ver/1/include/libhde.h
+END
+hinifile.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/hde/!svn/ver/1/include/hinifile.h
+END
+hcloseframe.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/hde/!svn/ver/1/include/hcloseframe.h
+END

@@ -1,0 +1,112 @@
+8
+
+dir
+7
+https://hde.svn.sourceforge.net/svnroot/hde/files
+https://hde.svn.sourceforge.net/svnroot/hde
+
+
+
+2008-02-10T17:05:42.183858Z
+1
+haydara
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+23214de6-cc45-0410-8b21-f038158b5468
+
+lng
+dir
+
+userfiles
+dir
+
+xdg
+dir
+
+Theme
+file
+
+
+
+
+2008-02-10T18:56:23.000000Z
+956f14351b674e160f22ca9339df0150
+2008-02-10T17:05:42.183858Z
+1
+haydara
+
+desktop-directories
+dir
+
+applnk
+dir
+
+images
+dir
+
+applications
+dir
+
+Theme-vista
+file
+
+
+
+
+2008-02-10T18:56:24.000000Z
+a4dd1efd6d346dccf51a56fa9cd236c6
+2008-02-10T17:05:42.183858Z
+1
+haydara
+
+XP-Theme
+file
+
+
+
+
+2008-02-10T18:56:23.000000Z
+c7ec63f10e247082c9ec05e456c69914
+2008-02-10T17:05:42.183858Z
+1
+haydara
+
+appdefaults
+file
+
+
+
+
+2008-02-10T18:56:23.000000Z
+716b809485374cb7953dcf3b0597475f
+2008-02-10T17:05:42.183858Z
+1
+haydara
+
+defaults.in
+file
+
+
+
+
+2008-02-10T18:56:23.000000Z
+de8368f996d297c9f73a7a50a95e1a1c
+2008-02-10T17:05:42.183858Z
+1
+haydara
+
+xsessions
+dir
+

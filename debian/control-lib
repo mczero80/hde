@@ -1,0 +1,11 @@
+Package: 	libhde
+Version: 	2.0.3
+Section:	libs
+Priority:	optional
+Architecture: 	all
+Essential: 	no
+Depends: 	libqt4-core (>= 4.3), libqt4-gui (>= 4.3)
+Installed-Size: 1388
+Maintainer: 	Haydar Alkaduhimi [haydar@haydarlinux.org]
+Provides: 	libhde
+Description: 	This package includes the libhde2.so.xx files you will which need to run HDE and programs based on it.

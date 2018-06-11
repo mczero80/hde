@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding = ISO 8859-6
+Name = Mozilla
+Name[ar] = ๅ่า๊ไว
+Comment =
+Exec = mozilla
+Icon = mozilla
+MimeType =
+Path =
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

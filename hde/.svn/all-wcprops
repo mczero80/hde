@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svnroot/hde/!svn/ver/7/hde
+END
+pager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/pager.cpp
+END
+dclock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/hde/!svn/ver/1/hde/dclock.cpp
+END
+desktp.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/hde/!svn/ver/1/hde/desktp.h
+END
+xwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/hde/!svn/ver/7/hde/xwindow.cpp
+END
+qapp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/hde/!svn/ver/1/hde/qapp.cpp
+END
+wborder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/hde/!svn/ver/1/hde/wborder.cpp
+END
+menu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/hde/!svn/ver/1/hde/menu.cpp
+END
+keyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/hde/!svn/ver/1/hde/keyboard.h
+END
+toolbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/toolbar.h
+END
+eventnames.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/hde/!svn/ver/1/hde/eventnames.h
+END
+vistamenu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/hde/!svn/ver/1/hde/vistamenu.cpp
+END
+rubber.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/hde/!svn/ver/1/hde/rubber.cpp
+END
+xpmenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/hde/!svn/ver/1/hde/xpmenu.h
+END
+normalmenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/hde/!svn/ver/1/hde/normalmenu.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/hde/!svn/ver/1/hde/main.cpp
+END
+apbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/apbar.cpp
+END
+winfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/hde/!svn/ver/1/hde/winfo.h
+END
+atoms.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/hde/!svn/ver/1/hde/atoms.h
+END
+procbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/hde/!svn/ver/1/hde/procbar.cpp
+END
+desktp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/hde/!svn/ver/1/hde/desktp.cpp
+END
+conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svnroot/hde/!svn/ver/1/hde/conf.h
+END
+winlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/winlist.h
+END
+keyboard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/hde/!svn/ver/1/hde/keyboard.cpp
+END
+toolbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/hde/!svn/ver/7/hde/toolbar.cpp
+END
+pager.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/hde/!svn/ver/1/hde/pager.h
+END
+xwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/xwindow.h
+END
+dclock.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/hde/!svn/ver/1/hde/dclock.h
+END
+qapp.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svnroot/hde/!svn/ver/1/hde/qapp.h
+END
+wborder.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/wborder.h
+END
+menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svnroot/hde/!svn/ver/1/hde/menu.h
+END
+xpmenu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/hde/!svn/ver/1/hde/xpmenu.cpp
+END
+normalmenu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/hde/!svn/ver/1/hde/normalmenu.cpp
+END
+hde.pro
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/hde/!svn/ver/1/hde/hde.pro
+END
+vistamenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/hde/!svn/ver/1/hde/vistamenu.h
+END
+winfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/winfo.cpp
+END
+atoms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/atoms.cpp
+END
+rubber.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/hde/!svn/ver/1/hde/rubber.h
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svnroot/hde/!svn/ver/1/hde/defs.h
+END
+winlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/hde/!svn/ver/1/hde/winlist.cpp
+END
+apbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/hde/!svn/ver/1/hde/apbar.h
+END
+procbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/hde/!svn/ver/1/hde/procbar.h
+END

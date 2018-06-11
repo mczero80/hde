@@ -1,0 +1,112 @@
+[Default]
+Style 			= hdeStyle
+Theme 			= hdeStyle
+menuStyle 		= vista
+
+closewidth		= 43
+closeicon 		= images/vista/close.png
+closemoicon 		= images/vista/close_mo.png
+closedownicon 		= images/vista/close_down.png
+minicon 		= images/vista/min.png
+minmoicon 		= images/vista/minmo.png
+mindownicon 		= images/vista/mindown.png
+maxicon 		= images/vista/max.png
+maxmoicon 		= images/vista/maxmo.png
+maxdownicon 		= images/vista/maxdown.png
+resticon 		= images/vista/rest.png
+restmoicon 		= images/vista/restmo.png
+restdownicon 		= images/vista/restdown.png
+
+ucloseicon 		= images/vista/uclose.png
+uclosemoicon 		= images/vista/uclose_mo.png
+uclosedownicon 		= images/vista/uclose_down.png
+uminicon 		= images/vista/umin.png
+uminmoicon 		= images/vista/uminmo.png
+umindownicon 		= images/vista/umindown.png
+umaxicon 		= images/vista/umax.png
+umaxmoicon 		= images/vista/umaxmo.png
+umaxdownicon 		= images/vista/umaxdown.png
+uresticon 		= images/vista/urest.png
+urestmoicon 		= images/vista/urestmo.png
+urestdownicon 		= images/vista/urestdown.png
+
+closeglowicon		= images/vista/closeglow.png
+glowThickness		= 8
+
+helpicon = images/hde/help_btn.png 
+
+TitleImage 		= images/vista/title.png
+UnactiveTitleImage 	= images/vista/title.png
+
+BorderTopImage		= images/vista/border_top.png
+BorderTopLeftImage	= images/vista/border_tl.png
+BorderTopRightImage	= images/vista/border_tr.png
+BorderLeftImage		= images/vista/border_left.png
+BorderRightImage	= images/vista/border_right.png
+BorderBottomImage	= images/vista/border_bot.png 
+BorderBottomLeftImage	= images/vista/border_bl.png
+BorderBottomRightImage	= images/vista/border_br.png
+
+UBorderTopImage		= images/vista/border_top.png
+UBorderTopLeftImage	= images/vista/border_tl.png
+UBorderTopRightImage	= images/vista/border_tr.png
+UBorderLeftImage	= images/vista/border_left.png
+UBorderRightImage	= images/vista/border_right.png
+UBorderBottomImage	= images/vista/border_bot.png 
+UBorderBottomLeftImage	= images/vista/border_bl.png
+UBorderBottomRightImage	= images/vista/border_br.png
+
+
+
+starticon 		= images/vista/vista_tux.png
+starticondown 		= images/vista/vista_tux_hover.png
+starticonmo 		= images/vista/vista_tux_hover.png
+StartIconHeight 	= 30
+StartIconWidth 		= 77
+#StartIconPlace 	= TOP
+
+ToolbarBackGround 	= images/vista/tb_bg.png
+ToolbarHeight 		= 30
+LowerBorderHeight	= 8
+TitlebarHeight 		= 26
+
+ToolButtonHeight 	= 26
+tbButton_bg 		= images/vista/btn_bg.png
+tbButtondown_bg 	= images/vista/btndown_bg.png
+tbButtonmo_bg 		= images/vista/btnmo_bg.png
+
+#TryBackGround 		= images/vista/ab_bg.png
+
+
+wininfo_bg 		= images/vista/btn_bg.png
+wininfodown_bg 		= images/vista/btndown_bg.png
+wininfomo_bg 		= images/vista/btnmo_bg.png
+WinInfoHeight 		= 26
+
+
+flaticons 		= TRUE
+topBorder 		= TRUE
+SideBorders 		= TRUE
+clickToFocus 		= TRUE
+IconSize     		= 17
+WindowButtonSize	= 25
+WindowButtonPos		= Top
+
+
+tbButtonForeground = #FFFFFF
+startForeground    = Qt::transparent
+apbarForeground	   = #FFFFFF
+
+[Color_Background]
+activeTextColor = #FFFFFF
+InactiveTextColor = #000000
+
+
+
+[TitlebarOrder]
+TitlebarItem[0]  = Menu
+TitlebarItem[1]  = Title
+TitlebarItem[2]  = Help
+TitlebarItem[3]  = Minimize
+TitlebarItem[4]  = Maximize
+TitlebarItem[5]  = Close

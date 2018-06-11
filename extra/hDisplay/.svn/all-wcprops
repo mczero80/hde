@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/hde/!svn/ver/4/extra/hDisplay
+END
+hdisplay.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/hde/!svn/ver/1/extra/hDisplay/hdisplay.qrc
+END
+hdisplay.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/hde/!svn/ver/1/extra/hDisplay/hdisplay.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/hde/!svn/ver/1/extra/hDisplay/main.cpp
+END
+hdisplay.ui
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/hde/!svn/ver/1/extra/hDisplay/hdisplay.ui
+END
+hDisplay.pro
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/hde/!svn/ver/1/extra/hDisplay/hDisplay.pro
+END
+hdisplay.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/hde/!svn/ver/4/extra/hDisplay/hdisplay.cpp
+END

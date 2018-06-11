@@ -1,0 +1,46 @@
+			HDE Installation Instruction
+			============================
+
+
+
+Required
+========
+QT version 4 or higher, can be freely downloaded from www.trolltech.com
+or ftp.trolltech.com
+
+
+Installation
+============
+the installation of hde is very easy, you should only enter these commands
+and hde should be installed.
+tar -xvzf hde-version.tar.gz
+cd hde-version
+make
+make install
+
+
+Changing installation directory
+===============================
+You can easaly change the installation directory during compiling by using
+make DEST=directory
+and
+make DEST=directory install
+
+
+Which files will be added
+=========================
+/usr/bin/hde1
+/usr/bin/hrun
+/usr/bin/hdeclock
+/usr/bin/hDisplay1
+/usr/bin/hDateTime
+/usr/bin/hde1inst
+/usr/bin/biff
+/usr/bin/hadditem
+/usr/bin/deskitem
+/usr/bin/hxkb
+/usr/include/hde1
+/usr/share/man/man1/hde1.1
+/usr/share/hde1
+/usr/lib/libhde1.so.*
+$(QTDIR)/plugins/styles/libhdeStyle.so

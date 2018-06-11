@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=ISO 8859-6
+Exec=xedit ~/.hwm/defaults && killall -HUP hwm
+Icon=
+Name=Edit Defaults
+Name[ar]=สอั๊ั Defaults
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,145 @@
+# HDE startup file
+[Default]
+# Pixel sizes for toolbar and window frames. Note that the minimum
+# size for toolbar and window title is limited by the choosen font
+# height.
+
+ToolbarHeight	     =	30
+TitlebarHeight	     =  22
+WindowButtonSize     =	14
+
+LowerBorderHeight    =	4
+LowerBorderWidth     =	10
+SideBorders	     =  TRUE
+PagerHeight	     =	18
+#Language             =  ar
+#Encoding	     =  ISO 8859-6
+#MenuText	     =  ÍêÏÑ
+
+defaultBrowser       = firefox
+defaultFileManager   = hfm
+
+# Fonts for window title and icons. The height is in pixels, not the 
+# point size
+
+WindowFontName	     =	Haydar Unicode [Monotype],-1,11,5,50,0,0,0,0,0
+WindowFontHeight     =	11
+IconFontName	     =	Haydar Unicode [Monotype],-1,11,5,50,0,0,0,0,0
+IconFontHeight	     =	13
+
+# Set this to TRUE if you want the toolbar on top of the screen
+
+ToolbarOnTop	     =	FALSE
+
+# Window geometry in maximized state, format X1 Y1 X2 Y2. If commented
+# use automatic defaults: Maximize1 will set to the rim of the toolbar
+# and Maximize2 to full screen size.
+
+# Maximize1  0   0   1000 500
+# Maximize2  0   20  1000 500
+
+# Qt::Horizontal screen percentage for the left (maximized) frame in tiled mode.
+
+TileSplit            =  70
+
+# <Qt::ALT+TAB> selects the next window on a desktop. In tiled mode it can be used 
+# to swap the selected window with the maximized window on the left frame after
+# the given timeout in milliseconds. A value of zero will disable this.
+
+TileMaxWithTab       =  600
+
+# Start the following desktops in tiled mode
+
+# TileStart           2 3
+
+# Use a smaller frame for windows in the right row if more than <n> windows are
+# minimized
+
+TileMinframe	     =  3
+
+# Set these to FALSE if you don't want a menue or winlist on the toolbar.
+# Functions remain accessible with a keystroke.
+
+ShowMenus	     =  TRUE
+ShowWinlist	     =	TRUE
+
+# PointerFocus is always enabled in HDE. Windows will also raise
+# automatically after the specified timeout in ms. Setting to zero
+# will disable this. Note that a window will automatically disable 
+# it's autoraise policy if it would fully obscure another window.
+
+AutoRaiseTime	     =   1
+#600
+
+# The window list will show the name of the host on which an application
+# is running. Set this to FALSE if you do not want this.
+
+ShowClientMachines   =   TRUE
+
+
+
+
+
+# New windows will appear in the color you have specified with 
+# UrgentWindowColor. Set this to FALSE if you do not want this feature.
+
+StartClientsUrgent   =   TRUE
+
+[Style]
+Style		     =	 hdeStyle
+# Style		     =	 Platinum
+# Style		     =	 Motif
+# Style		     =	 MotifPlus
+# Style		     =	 Windows
+# Style		     =	 CDE
+# Style		     =	 WinXP
+
+Theme = @SHAREDIR@/Theme
+
+[Color_Background]
+# Uncomment the color settings to change HDE defaults.
+# The normal colors are taken from the X resources and can be changed there
+# so that it is always consistent with the applications.
+activeWindowColor    = #c5c5c5
+InactiveWindowColor  = #8f8f8f
+activeWindowColor2   = lightblue
+InactiveWindowColor2 = #c5c5c5
+# UrgentWindowColor  =   Qt::red
+activeTextColor = #000000
+InactiveTextColor = #000000
+
+# BordersTransparency should be from 0 to 255, which 255 is no transparency
+BordersTransparency = 150
+
+# Initial root window background. Specify a solid color or an image.
+# An image can be in any format that Qt can read (not all Qt installations
+# have been compiled with gif support, use PNG instead).
+#RootBackgroundColor	  =   darkblue
+RootBackgroundPicture	  =   /usr/share/wallpapers/bg8.jpg
+BGDIR = /usr/share/wallpapers/
+
+ImagesDirs = /usr/share/icons/crystal
+DefaultIconsDir = /usr/share/icons/crystal
+
+[Pager]
+# Number of virtual desktops (pager)
+VirtualDesktops	     =  5
+
+# Pager colors
+# PagerActiveColor        =	DarkGray
+# PagerVisibleColor       =	DarkRed
+# PagerInvisibleColor     =	Qt::blue
+
+
+[Execute]
+# Applications to start with HDE.
+# krdb will take the colors from current KDE theme
+# Exec krdb
+Exec_Number = 3
+Exec[1] = xterm -sb -sl 2000 -g 80x24+12+89 
+Exec[2] = @BASEDIR@/biff
+Exec[3] = hxkb
+
+[DateTime]
+hijriDate=true
+

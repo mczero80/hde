@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=ISO 8859-6
+Name=Restart WM
+Name[ar]=ÅÙÇÏÉ ÊÔÚêä åÏêÑ ÇäæèÇáĞ
+Name[nl]=WM herstarten
+Exec=touch ~/.hde/defaults && killall -HUP hde
+Icon=reload
+Type=Application

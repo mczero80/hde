@@ -1,0 +1,55 @@
+8
+
+dir
+7
+https://hde.svn.sourceforge.net/svnroot/hde/files/applnk/Lower
+https://hde.svn.sourceforge.net/svnroot/hde
+
+
+
+2008-02-10T17:05:42.183858Z
+1
+haydara
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+23214de6-cc45-0410-8b21-f038158b5468
+
+Settings
+dir
+
+Help.desktop
+file
+
+
+
+
+2008-02-10T18:56:22.000000Z
+def7d49c4a8696a7176ea026839aac1a
+2008-02-10T17:05:42.183858Z
+1
+haydara
+
+Run.desktop
+file
+
+
+
+
+2008-02-10T18:56:22.000000Z
+3f8c4f5bef3aef1b6f46f9c711f23de9
+2008-02-10T17:05:42.183858Z
+1
+haydara
+

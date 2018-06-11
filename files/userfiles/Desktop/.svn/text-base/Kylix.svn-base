@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding = ISO 8859-6
+Name = Kylix 2
+Name[ar] = „«Í‰„” 2
+Comment=
+Exec = startkylix
+Icon = /usr/local/kylix2/images/icons/kylix32.xpm
+MimeType =
+Path =
+ServiceTypes =
+SwallowExec =
+SwallowTitle =
+Terminal = false
+TerminalOptions =
+Type = Application
+X-KDE-SubstituteUID = false
+X-KDE-Username =

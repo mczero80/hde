@@ -1,0 +1,68 @@
+[Default]
+Style = hdeStyle
+Theme = hdeStyle
+menuStyle = vista
+
+#closeicon = images/close.png
+#minicon = images/minimize.png
+#maxicon = images/maximize.png
+#resticon = images/restore.png
+#starticon = images/start.png
+closeicon = images/hde/close_btn.png
+minicon = images/hde/min_btn.png
+maxicon = images/hde/max_btn.png
+resticon = images/hde/restore_btn.png
+helpicon = images/hde/help_btn.png 
+TitleImage = images/hde/title_top.png
+TitleRightImage = images/hde/title_tr.png
+UnactiveTitleImage = images/hde/untitle_top.png
+UnactiveTitleRightImage = images/hde/untitle_tr.png
+
+starticon = images/hde/start_bg.png
+starticondown = images/hde/startdown_bg.png
+starticonmo = images/hde/startmo_bg.png
+StartIconHeight = 29
+StartIconWidth = 70
+StartIconPlace = TOP
+
+ToolbarBackGround = images/hde/tb_bg.png
+ToolbarHeight = 32
+ToolButtonHeight = 29
+
+tbButton_bg = images/hde/btn_bg.png
+tbButtondown_bg = images/hde/downbtn_bg.png
+tbButtonmo_bg = images/hde/mobtn_bg.png
+
+wininfo_bg = images/hde/start_bg.png
+wininfodown_bg = images/hde/startdown_bg.png
+wininfomo_bg = images/hde/startmo_bg.png
+WinInfoHeight = 29
+
+TryBackGround = images/hde/ab_bg.png
+
+flaticons = TRUE
+topBorder = TRUE
+SideBorders = TRUE
+windowsBtns = TRUE
+clickToFocus = TRUE
+TitlebarHeight	 =  24
+IconSize     =	12
+WindowButtonSize     =	20
+
+tbButtonForeground = #FFFFFF
+startForeground    = #FFFFFF
+apbarForeground	   = #000000
+
+[Color_Background]
+activeTextColor = #FFFFFF
+InactiveTextColor = #000000
+
+
+
+[TitlebarOrder]
+TitlebarItem[0]  = Menu
+TitlebarItem[1]  = Title
+TitlebarItem[2]  = Help
+TitlebarItem[3]  = Minimize
+TitlebarItem[4]  = Maximize
+TitlebarItem[5]  = Close

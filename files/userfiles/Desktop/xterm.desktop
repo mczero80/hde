@@ -1,0 +1,16 @@
+[Desktop Entry]
+Encoding = UTF-8
+Comment=
+Exec = xterm -sb
+Icon = terminal.png
+MimeType =
+Name = Xterm
+Path =
+ServiceTypes =
+SwallowExec =
+SwallowTitle =
+Terminal = false
+TerminalOptions =
+Type = Application
+X-KDE-SubstituteUID = false
+X-KDE-Username =
